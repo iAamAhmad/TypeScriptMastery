@@ -4,7 +4,7 @@
     "typescript": "^5.5.4"
   },
   "scripts": {
-     "dev": "ts-node-dev src/index.ts",
+    "dev": "ts-node-dev src/index.ts",
     "start": "concurrently \"tsc --watch\" \"nodemon dist/index.js\""
   }
 }
